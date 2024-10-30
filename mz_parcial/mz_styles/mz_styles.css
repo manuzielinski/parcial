@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.mz_header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+
+.mz_nav {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.mz_nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.mz_nav a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+    transform: scale(1.05);
+}
+
+.mz_main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.mz_publicaciones {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.mz_articulo {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.mz_articulo:last-child {
+    border-bottom: none;
+}
+
+.mz_articulo h3 {
+    color: #333;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.mz_boton_comentar {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.mz_boton_comentar:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.mz_form_comentario {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mz_form_comentario label {
+    margin: 5px 0 2px;
+}
+
+.mz_form_comentario input[type="text"],
+.mz_form_comentario textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.mz_form_comentario textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.comentario {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
